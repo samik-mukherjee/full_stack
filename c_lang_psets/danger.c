@@ -14,7 +14,7 @@ void print_lut();
 
 int main()
 {
-	puts("press Esc to getout");
+	puts("press Esc to get out");
 	system("stty -icanon -echo");
 	switch_a_t();
 	t_pressed();
