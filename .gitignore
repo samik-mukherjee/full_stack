@@ -20,7 +20,7 @@ dist
 *.pyc
 *.pyo
 *.tmp*
-
+a.out
 
 !.gitignore
 !*.c
