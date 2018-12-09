@@ -20,3 +20,8 @@ dist
 *.pyc
 *.pyo
 *.tmp*
+
+
+!.gitignore
+!*.c
+!*.h
