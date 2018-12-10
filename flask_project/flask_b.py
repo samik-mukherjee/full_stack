@@ -42,7 +42,7 @@ def register():
 	return render_template('Register.html',
 		title = 'register', form=form)
 
-@app.route('/ligin')
+@app.route('/login')
 def login():
 	form = LoginForm()
 	return render_template('Login.html',
