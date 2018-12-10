@@ -31,7 +31,7 @@ def about():
 	return render_template('about.html', 
 		title='about')
 
-#creating routes for login & register forms
+# route to register page
 @app.route('/register', methods =['GET','POST'])
 def register():
 	form = RegistrationForm()
@@ -42,6 +42,7 @@ def register():
 	return render_template('Register.html',
 		title = 'register', form=form)
 
+# route to login page
 @app.route('/login')
 def login():
 	form = LoginForm()
