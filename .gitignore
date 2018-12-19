@@ -21,6 +21,8 @@ dist
 *.pyo
 *.tmp*
 a.out
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
 !.gitignore
 !*.c
